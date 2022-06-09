@@ -1,4 +1,4 @@
-package lec12_메서드;
+package lec13_메서드;
 
 public class MainClass {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lec13_객체와_메모리;
+package lec14_객체와_메모리;
 
 public class MainClass {
 	public static void main(String[] args) {
