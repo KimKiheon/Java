@@ -1,4 +1,4 @@
-package lec12;
+package lec12_메서드;
 
 public class ChildClass {
 	
@@ -18,6 +18,5 @@ public class ChildClass {
 	private void mySecret() {
 		System.out.println("--mySecret()--");
 	}
-	//test 가능?
 	
 }

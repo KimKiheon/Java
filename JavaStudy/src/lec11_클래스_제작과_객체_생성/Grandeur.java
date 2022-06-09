@@ -1,4 +1,4 @@
-package lec11;
+package lec11_클래스_제작과_객체_생성;
 
 public class Grandeur {
 	
