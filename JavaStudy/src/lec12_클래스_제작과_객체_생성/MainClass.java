@@ -1,4 +1,4 @@
-package lec12_韥措灅鞀鞝滌瀾瓿糭臧濎泊_靸濎劚;
+package lec12_努贰胶_力累苞_按眉_积己;
 
 public class MainClass {
 	public static void main(String[] args) {

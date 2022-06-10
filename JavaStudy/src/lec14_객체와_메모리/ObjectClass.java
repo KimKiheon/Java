@@ -1,4 +1,4 @@
-package lec14_ê°ì²´ì™€_ë©”ëª¨ë¦¬;
+package lec14_°´Ã¼¿Í_¸Ş¸ğ¸®;
 
 public class ObjectClass {
 	public void getInfo() {

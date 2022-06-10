@@ -1,4 +1,4 @@
-package lec13_ë©”ì„œë“œ;
+package lec13_¸Þ¼­µå;
 
 public class ChildClass {
 	
