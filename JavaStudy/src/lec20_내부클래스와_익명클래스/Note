@@ -1,0 +1,24 @@
+내부(inner) 클래스: 클래스 안에 또 다른 클래스를 선언하는 방법
+자바 초창기에는 사용되었으나 가독성이 떨어지고 코드가 난해하여 현재는
+잘 사용되지 않음
+
+OuterClass.InnerClass in = oc.new InnerClass();
+new oc.InnerClass()라고 선언하면 이미 할당받은 oc마저 재 할당하라는 뜻
+oc.new InnerClass는 이미 할당받은 oc의 InnerClass만 저장받겠다는 뜻이다
+
+oc의 자료형은 OuterClass인데 Outer.Class.InnerClass는 더 큰 범위인 OuterClass를
+담을 수 없으므로 oc.new InnerClass가 맞다
+
+OutterClass.InnerClass in = oc. new InnerClass();
+OutterClass.SInnerClass si = new OutterClass.InnerClass();
+static과 선언이 다른 이유
+
+in 객체는 OuterClass 안에 있는 모든 객체가 사용불가
+하지만 static 클래스는 in 객체와 달리 OuterClass안에 모든 클래스들이 공유할 수 있어야함
+oc.new SInnerClass로 설정한다면 OuterClass에서 만든 객체 oc에 한정되어 객체가 생성되기 때문에
+static으로서의 의미가 없음
+
+
+
+익명 클래스: 이름이 없는 클래스로 주로 메서드 재정의 하는 목적으로 사용
+추후 인터페이스나 추상클래스에서 사용됨
