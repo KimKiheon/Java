@@ -1,10 +1,20 @@
 List는 인터페이스로 이를 구현한 클래스는 인덱스를 이용하여 데이터 관리
 -인덱스를 이용
 -데이터 중복 가능
-
+add(value): 데이터 추가
+add(int, value): int 인덱스에 value값 추가
+set(int, value): int 인덱스에 value값으로 데이터 교체
+get: 데이터 반환
+isEmpty(): 데이터 유뮤 체크 Boolean형 반환
 ArrayList: 배열
 
 Map은 인터페이스로 구현한 클래스는 key를 이용하여 데이터 관리
 -key 이용
 -key는 중복될 수 없다
 -데이터 중복 가능
+
+put: 데이터 삽입
+get: 데이터 반환
+remove: 데이터 제거
+containsKey: 특정 key값이 있는지
+containValue: 특정 Value값이 존재 하는지
